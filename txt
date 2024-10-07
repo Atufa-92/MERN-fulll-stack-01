@@ -1,0 +1,11 @@
+Document Structure: <!DOCTYPE>, <html>, <head>, <body>
+Metadata: <meta>, <title>, <link>
+Text Content: <h1>-<h6>, <p>, <strong>, <em>, <blockquote>
+Lists: <ul>, <ol>, <li>, <dl>, <dt>, <dd>
+Links and Media: <a>, <img>, <audio>, <video>, <source>
+Forms: <form>, <input>, <label>, <textarea>, <button>, <select>, <option>
+Tables: <table>, <tr>, <th>, <td>, <thead>, <tbody>, <tfoot>
+Document Sections: <header>, <footer>, <main>, <section>, <article>, <nav>, <aside>
+Inline and Block-level Elements: <div>, <span>, <hr>, <br>
+Scripting: <script>, <noscript>
+Attributes: class, id, style, src, href, alt, action, method, value, placeholder
