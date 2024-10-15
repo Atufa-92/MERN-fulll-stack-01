@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .block{
+        background-color: aqua;
+        margin: 50 0;
+        display:block;
+        padding: 10px;
+    }
+    .inline{
+        background-color: brown;
+        margin: 20px 0;
+        padding:20px;
+        display: inline;
+    }
+    .inline-block{
+        background-color: coral;
+        height: 50px;
+        width:100px;
+        display: inline-block;
+        padding: 10px;
+        margin: 10px;
+
+    }
+    .hidden{
+        display: none;
+    }
+
+    .flex-container {
+        display: flex;
+        background-color: lightgray;
+        justify-content: space-around;
+        padding: 10px;
+      }
+      .flex-item {
+        background-color: lightskyblue;
+        padding: 20px;
+        margin: 5px;
+      }
+</style>
+<body>
+    <div class="block">iam a block</div>
+    <div class="block">i take up full width</div>
+
+<br>
+<br>
+
+    <div class="inline">iam a inline property</div>
+    <div class="inline">ill take a content space</div>
+    <div class="inline">i wont use full width</div>
+
+<br>
+<br>
+
+ <div class="inline-block">box1</div>
+ <div  class="inline-block" >box 2 </div>
+ <div  class="inline-block">box 3</div>
+
+
+ <div class="hidden"> you wont see me</div>
+ <div class="hidden">im visible</div>
+
+
+<!-- flex container -->
+ <div class="flex-container">
+    <div class="flex-item">Item 1</div>
+    <div class="flex-item">Item 2</div>
+    <div class="flex-item">Item 3</div>
+  </div>
+
+</body>
+</html> 
+
+
+
+

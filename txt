@@ -9,3 +9,32 @@ Document Sections: <header>, <footer>, <main>, <section>, <article>, <nav>, <asi
 Inline and Block-level Elements: <div>, <span>, <hr>, <br>
 Scripting: <script>, <noscript>
 Attributes: class, id, style, src, href, alt, action, method, value, placeholder
+ositioning: Controls the placement of elements (relative, absolute, fixed).
+Float: Makes elements float to the left or right.
+Flexbox: Aligns elements in rows or columns with flexibility.
+Grid: Helps create structured layouts with rows and columns.
+Z-Index: Manages the stack order of overlapping elements
+Fixed-Width Containers
+
+These containers have a fixed width regardless of screen size.
+Example: width: 1200px;
+Useful for desktop-only layouts.
+Fluid Containers
+
+These use percentages for width, making them adjust to screen sizes.
+Example: width: 80%;
+Responsive Containers
+
+Automatically adjust to different screen sizes, typically using CSS media queries or frameworks like Bootstrap.
+Fixed-Width Containers
+
+These containers have a fixed width regardless of screen size.
+Example: width: 1200px;
+Useful for desktop-only layouts.
+Fluid Containers
+
+These use percentages for width, making them adjust to screen sizes.
+Example: width: 80%;
+Responsive Containers
+
+Automatically adjust to different screen sizes, typically using CSS media queries or frameworks like Bootstrap.

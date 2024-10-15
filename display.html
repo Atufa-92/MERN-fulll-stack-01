@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Example</title>
+    <style>
+        .block {
+            display: block;
+            width: 100%;
+            background-color: lightblue;
+            margin-bottom: 10px;
+        }
+
+        .inline {
+            display: inline;
+            background-color: lightgreen;
+            padding: 5px;
+        }
+
+        .inline-block {
+            display: inline-block;
+            width: 100px;
+            height: 50px;
+            background-color: lightcoral;
+            margin-right: 10px;
+        }
+
+        .flex-container {
+            display: flex;
+            gap: 10px;
+            background-color: lightyellow;
+            padding: 10px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            background-color: lightgray;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>CSS Display Property Example</h2>
+
+    <div class="block">Block element (takes full width).</div>
+
+    <span class="inline">Inline element 1</span>
+    <span class="inline">Inline element 2</span>
+
+    <div class="inline-block">Inline-block 1</div>
+    <div class="inline-block">Inline-block 2</div>
+
+    <div class="flex-container">
+        <div>Flex Item 1</div>
+        <div>Flex Item 2</div>
+        <div>Flex Item 3</div>
+    </div>
+
+    <div class="grid-container">
+        <div>Grid Item 1</div>
+        <div>Grid Item 2</div>
+        <div>Grid Item 3</div>
+    </div>
+
+</body>
+</html>
