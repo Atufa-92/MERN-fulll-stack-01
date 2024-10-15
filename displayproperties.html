@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Block Display Example</title>
+  <!-- block, inline, inline-block, none, and flex. -->
+  <style>
+    .block {
+      background-color: lightblue;
+      margin: 10px 0;
+      padding: 10px;
+      display: block;
+    }
+  </style>
+</head>
+ <body>
+  <div class="block">I am a block element</div>
+  <div class="block">I also take up full width</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Inline -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inline Display Example</title>
+  <style>
+    .inline {
+      background-color: lightcoral;
+      padding: 5px;
+      display: inline;
+    }
+  </style>
+</head>
+<body>
+  <span class="inline">Inline</span>
+  <span class="inline">Elements</span>
+  <span class="inline">Stay together</span>
+</body>
+</html>
+<!-- Similar to inline, but it allows setting width and height. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inline-Block Display Example</title>
+  <style>
+    .inline-block {
+      background-color: lightgreen;
+      width: 100px;
+      height: 50px;
+      display: inline-block;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="inline-block">Box 1</div>
+  <div class="inline-block">Box 2</div>
+  <div class="inline-block">Box 3</div>
+</body>
+</html>
+<!-- none -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Display None Example</title>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="hidden">You won't see me!</div>
+  <div>This element is visible.</div>
+</body>
+</html>
+<!-- flex display -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex Display Example</title>
+  <style>
+    .flex-container {
+      display: flex;
+      background-color: lightgray;
+      justify-content: space-around;
+      padding: 10px;
+    }
+    .flex-item {
+      background-color: lightskyblue;
+      padding: 20px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="flex-item">Item 1</div>
+    <div class="flex-item">Item 2</div>
+    <div class="flex-item">Item 3</div>
+  </div>
+</body>
+</html>
